@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload de arquivos simples</title>
+</head>
+
+<body>
+  <form action="precessaUpload.php" method="POST" enctype="multipart/form-data">
+<!-- O enctype="multipart/form-data" serve para informar o navegador que vamos envar o arquivo muito grande que a forma normal de encoding (application/x-www-form-urlencoded) não suporta, o enctype (enconding type) multipart/form-data suporta o envio de arquivos, arquivos ou dados não ASCII, e dados binarios que podem ser extremamente grandes. Também aceita envio em partes como um fluxo (stream) em que os dados chegam do outro lado na mesma ordem que foram enviados.  -->
+    <input type="file" name="flArquivo">
+    <button type="submit">Carregar</button>
+  </form>
+</body>
+
+</html>
