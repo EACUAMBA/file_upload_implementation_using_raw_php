@@ -1,14 +1,19 @@
 <?php
 require_once("./upload.php");
 
-$file = $_FILES;
+$file = $_FILES['arquivo'];
 
-$upload = new Upload($file);
-$upload->upload();
+    while(true){
+        $upload = new Upload($file);
+        $resultado = $upload->upload(true);
 
+        if($resultado != null)
+            echo $upload->getMensagem($resultado);
+    }
 
-function dd($p = []){
-echo "<pre>";
-print_r($p);
-echo "</pre>";
+function dd($p = [])
+{
+    echo "<pre>";
+    print_r($p);
+    echo "</pre>";
 }

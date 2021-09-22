@@ -4,6 +4,7 @@ Este é um projecto feito seguindo o tutorial e explicações encontradas no vid
 do canal <a href="https://www.youtube.com/channel/UCBbMl4vZDvArxHrWoPtg_cw" >SatellaSoft
 <img src="https://yt3.ggpht.com/x6roialubpRzenQM1bSRLYZC7vEsWxFSDHkg1GEwvj-nNgZxLcQ_90Y7kdu3B6YapF18ZlH33y8=s48-c-k-c0x00ffffff-no-rj" alt="logo do canal"></a>
 ### Perguntas inportantes a se fazer
+
 - Que tipo de arquivo vamos fazer upload?
 
 ex: .zip, .jpeg, .png, .pdf, .txt
@@ -23,7 +24,8 @@ Para evitar isso devemos usar **MIMETYPES**.
 Quando usamos MIMETYPEs ele faz validações dentro do arquivo para saber se o arquivo que nos estamos a enviar realmente é da extensão que esperamos receber, se dissemos que queremos uma imagem, o mimetype vai certificar que o arquivo que enviamos .jpeg é realmente uma imagem na sua essência, assim garantindo mais uma segurança.
 
 - Qual o tamanho do arquivo? 
-2 megabytes ~~ 2.000 bytes
+
+Cerca de 2 megabytes ~~ 2.000 bytes
 
 - Qual o tamanho máximo de envio?
 
